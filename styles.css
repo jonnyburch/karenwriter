@@ -18,3 +18,25 @@ body, html {
 }
 
 input, textarea {border: none;font-family: 'karenregular';outline: none; font-size: 0.7em; text-transform: uppercase;position:absolute; bottom:0; top:0; right:0; left: 0;padding: 30px;text-align: center;}
+
+.holder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+textarea {
+  width: 80%;
+  margin: 0 auto;
+}
