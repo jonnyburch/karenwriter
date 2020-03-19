@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'karenregular';
+    src: url('karen-regular-webfont.eot');
+    src: url('karen-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('karen-regular-webfont.woff') format('woff'),
+         url('karen-regular-webfont.ttf') format('truetype'),
+         url('karen-regular-webfont.svg#karenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, html {
+	font-family: 'karenregular';
+	font-size: 2em;
+	font-color: #333;
+	text-transform:uppercase;
+}
+
+input, textarea {border: none;font-family: 'karenregular';outline: none; font-size: 0.7em; text-transform: uppercase;position:absolute; bottom:0; top:0; right:0; left: 0;padding: 30px;text-align: center;}
